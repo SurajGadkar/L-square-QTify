@@ -1,8 +1,8 @@
 :root {
   /* Global variables to be defined here */
-   --color-primary: #34C94B;
-   --color-secondary: #121212; 
-   --color-white: #ffffff; 
+  --color-primary: #34c94b;
+  --color-secondary: #121212;
+  --color-white: #ffffff;
 }
 
 *,
@@ -20,6 +20,8 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Poppins";
+  font-family: sans-serif;
 }
 img,
 picture,
