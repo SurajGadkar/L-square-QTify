@@ -1,0 +1,17 @@
+.carousel__container {
+  display: flex;
+}
+
+.main__container {
+  margin: 10px;
+  width: 100vh;
+}
+
+.album__name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--color-white);
+}

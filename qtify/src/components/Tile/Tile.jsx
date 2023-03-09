@@ -2,13 +2,13 @@ import React from "react";
 import Card from "../Card/Card";
 import styles from "./Tile.module.css";
 
-function Tile() {
+function Tile({ tileName, imgSrc }) {
   return (
     <div className={styles.tile}>
       <div className={styles.card}>
-        <Card />
+        <Card imgSrc={imgSrc} title="100 Follows" />
       </div>
-      <h4 className={styles.text}>New Bollywood</h4>
+      <h4 className={styles.text}>{tileName}</h4>
     </div>
   );
 }

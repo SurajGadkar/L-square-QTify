@@ -4,10 +4,7 @@
 }
 
 .btn {
-  border-radius: 10px;
-  background-color: var(--color-secondary);
-  color: var(--color-white);
-  font-size: 15px;
+  justify-content: flex-start;
 }
 
 .button_area {
@@ -16,10 +13,8 @@
 
   display: flex;
   flex-direction: row;
-  justify-content: left;
-  align-items: center;
 
-  padding-left: 4px;
+  align-items: center;
 
   height: 40px;
   width: 159px;
