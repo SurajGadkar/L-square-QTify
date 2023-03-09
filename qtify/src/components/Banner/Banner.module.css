@@ -1,0 +1,29 @@
+.container_banner {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  height: 274px;
+  width: 100vw;
+
+  color: var(--color-white);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+
+  background-color: var(--color-secondary);
+}
+
+.headphones {
+  height: 212px;
+  width: 212px;
+}
+
+.banner_text {
+  display: flex;
+  height: 212px;
+  width: 799px;
+  align-items: center;
+  justify-content: center;
+}
