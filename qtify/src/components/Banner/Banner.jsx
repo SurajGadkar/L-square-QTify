@@ -10,7 +10,8 @@ function Banner() {
       <img
         className={styles.headphones}
         src={require("../../assets/headphones.png")}
-      ></img>
+        alt="Banner_img"
+      />
     </div>
   );
 }

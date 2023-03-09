@@ -6,7 +6,7 @@ function Card() {
   return (
     <div>
       <div className={styles.image}>
-        <img src={require("../../assets/songImage.png")}></img>
+        <img src={require("../../assets/songImage.png")} alt="Song Images" />
       </div>
       <div className={styles.button_area}>
         <button className={styles.btn}> 100 Follows </button>
