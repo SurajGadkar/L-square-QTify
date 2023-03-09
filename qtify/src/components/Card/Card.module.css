@@ -3,7 +3,24 @@
   width: 159px;
 }
 
-.button {
+.btn {
+  border-radius: 10px;
   background-color: var(--color-secondary);
+  color: var(--color-white);
+  font-size: 15px;
+}
+
+.button_area {
+  background-color: var(--color-white);
   border-radius: 0 0 10px 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+
+  padding-left: 4px;
+
+  height: 40px;
+  width: 159px;
 }

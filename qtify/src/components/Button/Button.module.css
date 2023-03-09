@@ -1,4 +1,5 @@
 .button {
+  display: flex;
   width: 71px;
   height: 23px;
   border: 1px solid;

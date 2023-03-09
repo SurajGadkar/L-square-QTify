@@ -8,8 +8,8 @@ function Card() {
       <div className={styles.image}>
         <img src={require("../../assets/songImage.png")}></img>
       </div>
-      <div className={styles.button}>
-        <button>100 Follows </button>
+      <div className={styles.button_area}>
+        <button className={styles.btn}> 100 Follows </button>
       </div>
     </div>
   );
