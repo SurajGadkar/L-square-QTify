@@ -1,0 +1,15 @@
+.button {
+  width: 71px;
+  height: 23px;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 4px 8px;
+
+  font-style: normal;
+  color: var(--color-whire);
+
+  line-height: 27px;
+  /* identical to box height */
+
+  background-color: var(--color-secondary);
+}

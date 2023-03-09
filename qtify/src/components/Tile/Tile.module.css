@@ -1,0 +1,10 @@
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+
+  height: 232px;
+  width: 159px;
+  border: 1px solid black;
+}

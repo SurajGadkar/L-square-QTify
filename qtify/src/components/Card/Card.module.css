@@ -1,0 +1,9 @@
+.image {
+  height: 170px;
+  width: 159px;
+}
+
+.button {
+  background-color: var(--color-secondary);
+  border-radius: 0 0 10px 10px;
+}
