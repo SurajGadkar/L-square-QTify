@@ -10,7 +10,7 @@ function Section({ title, dataSource }) {
   useEffect(() => {
     dataSource().then((data) => {
       setCards(data);
-      console.log(data);
+      //console.log(data);
     });
   }, []);
 

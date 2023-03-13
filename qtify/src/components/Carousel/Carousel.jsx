@@ -9,15 +9,10 @@ import "swiper/css";
 function Carousel({ data, renderComponent }) {
   return (
     <div style={{ position: "relative" }} className={styles.carousel__body}>
-      <Swiper
-        spaceBetween={40}
-        slidesPerView={"auto"}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
+      <Swiper spaceBetween={40} slidesPerView={"auto"}>
         <CarouselLeftNavigation />
-        {data.map((ele) => (
-          <SwiperSlide>{renderComponent(ele)}</SwiperSlide>
+        {data.map((ele, index) => (
+          <SwiperSlide key={index}>{renderComponent(ele)}</SwiperSlide>
         ))}
         <CarouselRightNavigation />
       </Swiper>
