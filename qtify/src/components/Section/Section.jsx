@@ -3,7 +3,7 @@ import Carousel from "../Carousel/Carousel.jsx";
 import Tile from "../Tile/Tile.jsx";
 import styles from "./Section.module.css";
 
-function Section({ title, dataSource }) {
+function Section({ title, dataSource, tag }) {
   const [cards, setCards] = useState([]);
   const [isShowAll, setIsShowAll] = useState(false);
 
@@ -20,9 +20,9 @@ function Section({ title, dataSource }) {
   return (
     <div className={styles.container}>
       <div className={styles.main__container}>
-        <div>{title}</div>
+        <h3>{title}</h3>
         <div className={styles.show__all} onClick={handleShowAll}>
-          {isShowAll ? "Collapse" : "Show All"}
+          {tag === "filter" ? "" : isShowAll ? "Collapse" : "Show All"}
         </div>
       </div>
       {isShowAll ? (
